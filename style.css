@@ -1,0 +1,29 @@
+html,
+body {
+  background: rgb(86, 150, 86);
+}
+
+h1 {
+  color: wheat;
+}
+.container-sm {
+  background: rgb(245, 243, 149);
+  border: 1px solid black;
+  box-shadow: 1px 1px 3px rgb(241, 241, 230);
+}
+
+#inputButton {
+  cursor: pointer;
+}
+
+img {
+  width: 1rem;
+  height: 1rem;
+  float: right;
+}
+
+paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>The List</title>
+  </head>
+  <body>
+    <h1 class="text-center">The List</h1>
+    <div class="container-sm text-center w-50 p-3">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="inputField"
+          placeholder="Enter Task..."
+        />
+        <div class="input-group-append" id="inputButton">
+          <span class="input-group-text" id="basic-addon">+</span>
+        </div>
+      </div>
+      <div class="todosContainer"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
